@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E235E5AF242729E800D590B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235E5AE242729E800D590B1 /* AppDelegate.swift */; };
 		E235E5B1242729E800D590B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235E5B0242729E800D590B1 /* SceneDelegate.swift */; };
-		E235E5B3242729E800D590B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235E5B2242729E800D590B1 /* ViewController.swift */; };
+		E235E5B3242729E800D590B1 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235E5B2242729E800D590B1 /* ToDoListViewController.swift */; };
 		E235E5B6242729E800D590B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E235E5B4242729E800D590B1 /* Main.storyboard */; };
 		E235E5B8242729E900D590B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E235E5B7242729E900D590B1 /* Assets.xcassets */; };
 		E235E5BB242729E900D590B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E235E5B9242729E900D590B1 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		E235E5AB242729E800D590B1 /* Say No to Forget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Say No to Forget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E235E5AE242729E800D590B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E235E5B0242729E800D590B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E235E5B2242729E800D590B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E235E5B2242729E800D590B1 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		E235E5B5242729E800D590B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E235E5B7242729E900D590B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E235E5BA242729E900D590B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				E235E5AE242729E800D590B1 /* AppDelegate.swift */,
 				E235E5B0242729E800D590B1 /* SceneDelegate.swift */,
-				E235E5B2242729E800D590B1 /* ViewController.swift */,
+				E235E5B2242729E800D590B1 /* ToDoListViewController.swift */,
 				E235E5B4242729E800D590B1 /* Main.storyboard */,
 				E235E5B7242729E900D590B1 /* Assets.xcassets */,
 				E235E5B9242729E900D590B1 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E235E5B3242729E800D590B1 /* ViewController.swift in Sources */,
+				E235E5B3242729E800D590B1 /* ToDoListViewController.swift in Sources */,
 				E235E5AF242729E800D590B1 /* AppDelegate.swift in Sources */,
 				E235E5B1242729E800D590B1 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-banuraga.Say-No-to-Forget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuraga.Say-No-to-Forget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-banuraga.Say-No-to-Forget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuraga.Say-No-to-Forget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
