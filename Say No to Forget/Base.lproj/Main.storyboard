@@ -29,7 +29,14 @@
                             <outlet property="delegate" destination="KKo-hM-Ti7" id="9NU-r1-OaC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Say No To Forget" id="ASL-u0-Yec"/>
+                    <navigationItem key="navigationItem" title="Say No To Forget" id="ASL-u0-Yec">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QSQ-fr-ngh">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="KKo-hM-Ti7" id="YrT-pe-nSP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msJ-xJ-mMI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
